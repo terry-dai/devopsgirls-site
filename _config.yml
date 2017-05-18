@@ -1,1 +1,9 @@
-theme: jekyll-theme-cayman
+title: Devops Girls
+description: Home of Devops Girls, an initiative for teaching Devops to ladies
+
+markdown: kramdown
+
+collections:
+  materials:
+    output: true
+    permalink: /:collection/:name
