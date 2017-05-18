@@ -2,40 +2,18 @@
 layout: default
 ---
 
-## Welcome to GitHub Pages
+## DevOps Girls is Life!
 
-You can use the [editor on GitHub](https://github.com/DevOpsGirls/devopsgirls-site/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![](./assets/devopsgirls.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Five months ago, 25 people in REA Group set out with a mission: to deliver a free workshop for women who want to know more about AWS and DevOps. The first DevOps Girls was held for 60 women in Richmond, Victoria - it was a resounding success.
 
-### Markdown
+All it took was an open Github Repo, 44 dollars in AWS credit, and a lot of love for the community.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Get Involved!
 
-```markdown
-Syntax highlighted code block
+You can start by checking the [DevOps Girls Github Repo](https://github.com/DevOpsGirls/devopsgirls-bootcamp) for everything you'll need for the day.
 
-# Header 1
-## Header 2
-### Header 3
+The [News](News) section will have dates and announcements for future events.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DevOpsGirls/devopsgirls-site/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Want to say hi to the organizers? Have questions? Then pop by the [Contact](Contact) pages to see more!
