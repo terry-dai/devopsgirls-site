@@ -1,0 +1,42 @@
+@import "./_colours.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.header {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: $charcoal;
+    color: #fff;
+
+    &__logo {
+        display: inline-block;
+        width: 50%;
+    }
+
+    &__nav {
+        display: inline-block;
+        width: 45%;
+    }
+
+    &__links {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.links {
+    &__item {
+        transition: all 0.3s linear 0s;
+        text-decoration: none;
+        margin: 20px;
+        color: $transparent-white;
+
+        &:hover {
+            color: #fff;
+        }
+
+        &:visited {
+            color: $transparent-white;
+        }
+    }
+}
