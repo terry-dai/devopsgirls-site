@@ -18,14 +18,13 @@
         width: 45%;
     }
 
-    &__links {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
-    }
 }
 
-.links {
+// Large screen
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
     &__item {
         transition: all 0.3s linear 0s;
         text-decoration: none;
@@ -40,4 +39,9 @@
             color: $transparent-white;
         }
     }
+}
+
+// Smaller screen
+
+.burger {
 }
