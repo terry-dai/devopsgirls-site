@@ -18,6 +18,10 @@ main {
   min-height: calc(100vh - 70px);
 }
 
+textarea:focus, input:focus, button:focus {
+    outline: none;
+}
+
 a:focus, a:hover, a:visited {
     text-decoration: none;
 }
