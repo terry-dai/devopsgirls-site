@@ -10,7 +10,7 @@ Unfortunately, the best SSH client for Windows also requires its own format. So 
 
 ### 1.) Go to the Putty webpage
 
-Open up your browser and go to: http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+Open up your browser and go to: [http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 ### 2.) Download PuTTY
 
