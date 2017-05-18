@@ -4,7 +4,7 @@ layout: default
 
 ## DevOps Girls is Life!
 
-![](./assets/devopsgirls.png)
+![](./assets/devopsgirls.jpg)
 
 Five months ago, 25 people in REA Group set out with a mission: to deliver a free workshop for women who want to know more about AWS and DevOps. The first DevOps Girls was held for 60 women in Richmond, Victoria - it was a resounding success.
 
