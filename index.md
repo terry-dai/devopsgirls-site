@@ -10,8 +10,8 @@ All it took was an open Github Repo, 44 dollars in AWS credit, and a lot of love
 
 ## Get Involved!
 
-You can start by checking the [https://github.com/DevOpsGirls/devopsgirls-bootcamp](DevOps Girls Github Repo) for everything you'll need for the day.
+You can start by checking the [DevOps Girls Github Repo](https://github.com/DevOpsGirls/devopsgirls-bootcamp) for everything you'll need for the day.
 
-The [github.com/DevOpsGirls/devopsgirls-bootcamp](News) section will have dates and announcements for future events.
+The [News](News) section will have dates and announcements for future events.
 
-Want to say hi to the organizers? Have questions? Then pop by the [github.com/DevOpsGirls/devopsgirls-bootcamp](Contact) pages to see more!
+Want to say hi to the organizers? Have questions? Then pop by the [Contact](Contact) pages to see more!
