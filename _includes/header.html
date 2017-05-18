@@ -1,33 +1,47 @@
 <header class="header">
     <div class="header__logo">LOGO</div>
-    <div id="open-burger" class="burger-close-button">
-        <span>placeholder</span>
-    </div>
+
+    <!-- Burger button -->
+    <!-- <div class="burger-button"> -->
+        <button id="open-burger" class="hamburger hamburger--slider" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+    <!-- </div> -->
+
+    <!-- Large screen nav -->
     <div class="header__nav">
         <div class="nav">
             <a class="nav__item" href="#"/>About</a>
-            <a class="nav__item" href="/materials"/>Materials</a>
+            <a class="nav__item" href="{{site.url}}/materials/"/>Materials</a>
             <a class="nav__item" href="#"/>News</a>
             <a class="nav__item" href="#"/>Contact</a>
         </div>
     </div>
-    <div class="burger burger--hidden">
-        <a class="burger__item burger__item--margin" href="#"/>About</a>
-        <a class="burger__item" href="/materials"/>Materials</a>
-        <a class="burger__item" href="#"/>News</a>
-        <a class="burger__item" href="#"/>Contact</a>
+
+    <!-- Small screen nav -->
+    <div class="small-menu small-menu--hidden">
+        <a class="small-menu__item small-menu__item--margin" href="#"/>About</a>
+        <a class="small-menu__item" href="{{site.url}}/materials/"/>Materials</a>
+        <a class="small-menu__item" href="#"/>News</a>
+        <a class="small-menu__item" href="#"/>Contact</a>
     </div>
 
     <script type="text/javascript">
-        $('#open-burger').click(function() {
-            var $burgerElement = '.burger';
-            var modifierClass = 'burger--hidden';
+    $('#open-burger').click(function() {
+        var burgerIcon = '#open-burger';
+        var burgerIconModifier = 'is-active';
+        var menuContent = '.small-menu';
+        var modifierClass = 'small-menu--hidden';
 
-            if ($($burgerElement).hasClass(modifierClass)) {
-                $($burgerElement).removeClass(modifierClass);
-            } else {
-                $($burgerElement).addClass(modifierClass);
-            }
-        });
+        if ($(menuContent).hasClass(modifierClass)) {
+            $(menuContent).removeClass(modifierClass);
+            $(burgerIcon).addClass(burgerIconModifier);
+        } else {
+            $(menuContent).addClass(modifierClass);
+            $(burgerIcon).removeClass(burgerIconModifier);
+        }
+    });
     </script>
 </header>

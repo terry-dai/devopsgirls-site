@@ -8,7 +8,6 @@
     text-transform: uppercase;
     background-color: $charcoal;
     color: #fff;
-    padding: 20px 0;
 
     &__logo {
         display: inline-block;
@@ -20,17 +19,10 @@
         width: 45%;
     }
 
-}
-
-.burger-close-button {
-    cursor: pointer;
-    display: inline-block;
-    width: 45%;
-    text-align: right;
-
     @media(min-width: $large-screen) {
-        display: none;
+        padding: 0 0 20px 0;        
     }
+
 }
 
 // Large screen nav
@@ -58,9 +50,30 @@
 
 }
 
+.burger-button {
+}
+
+// unfortunately the lib CSS overrides this display.
+.hamburger {
+    width: 45%;
+    text-align: right;
+
+    @media(min-width: $large-screen) {
+        display: none !important;
+    }
+    .hamburger-inner {
+        background-color: $transparent-white !important;
+        width: 30px;
+        &::before, &::after {
+            width: 30px;
+            background-color: $transparent-white !important;
+        }
+    }
+
+}
 
 // Smaller screen nav
-.burger {
+.small-menu {
     position: relative;
 
     &--hidden {
