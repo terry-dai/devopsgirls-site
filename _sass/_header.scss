@@ -1,11 +1,14 @@
 @import "./_colours.scss";
+@import "./_breakpoints.scss";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .header {
+    position: relative;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     background-color: $charcoal;
     color: #fff;
+    padding: 20px 0;
 
     &__logo {
         display: inline-block;
@@ -17,26 +20,75 @@
         width: 45%;
     }
 
-    &__links {
-        list-style: none;
-        display: flex;
-        justify-content: flex-end;
+}
+
+.burger-close-button {
+    cursor: pointer;
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+
+    @media(min-width: $large-screen) {
+        display: none;
     }
 }
 
-.links {
+// Large screen nav
+.nav {
+    display: none;
+
+    @media(min-width: $large-screen) {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+
+        &__item {
+            margin: 20px;
+            color: $transparent-white;
+
+            &:hover {
+                color: #fff;
+            }
+
+            &:visited {
+                color: $transparent-white;
+            }
+        }
+    }
+
+}
+
+
+// Smaller screen nav
+.burger {
+    position: relative;
+
+    &--hidden {
+        display: none;
+    }
+
     &__item {
-        transition: all 0.3s linear 0s;
-        text-decoration: none;
-        margin: 20px;
+        display: block;
+        text-align: center;
+        padding: 20px;
         color: $transparent-white;
+
+        &--margin {
+            padding: 40px 10px 10px 10px;
+        }
 
         &:hover {
             color: #fff;
+            background-color: $dark-grey;
         }
 
         &:visited {
             color: $transparent-white;
         }
+
+    }
+
+    @media(min-width: $large-screen) {
+        display: none;
     }
 }
