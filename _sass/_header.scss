@@ -22,17 +22,6 @@
 
 }
 
-.burger-close-button {
-    cursor: pointer;
-    display: inline-block;
-    width: 45%;
-    text-align: right;
-
-    @media(min-width: $large-screen) {
-        display: none;
-    }
-}
-
 // Large screen nav
 .nav {
     display: none;
@@ -58,9 +47,18 @@
 
 }
 
+.hamburger {
+    width: 45%;
+    text-align: right;
+
+    @media(min-width: $large-screen) {
+        // unfortunately the lib CSS overrides this display.
+        display: none !important;
+    }
+}
 
 // Smaller screen nav
-.burger {
+.small-menu {
     position: relative;
 
     &--hidden {
