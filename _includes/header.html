@@ -19,15 +19,8 @@
     </div>
 
     <script type="text/javascript">
-        $('#open-burger').click(function() {
-            var $burgerElement = '.burger';
-            var modifierClass = 'burger--hidden';
-
-            if ($($burgerElement).hasClass(modifierClass)) {
-                $($burgerElement).removeClass(modifierClass);
-            } else {
-                $($burgerElement).addClass(modifierClass);
-            }
+        document.getElementById('open-burger').addEventListener('click', function() {
+            document.querySelector('.burger').classList.toggle('burger--hidden');
         });
     </script>
 </header>
