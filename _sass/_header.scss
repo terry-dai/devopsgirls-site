@@ -24,7 +24,7 @@
     }
 
     @media(min-width: $large-screen) {
-        padding: 0 0 20px 0;        
+        padding: 0 0 20px 0;
     }
 
 }
@@ -58,13 +58,14 @@
 }
 
 // unfortunately the lib CSS overrides this display.
-.hamburger {
+.hamburger, {
     width: 45%;
     text-align: right;
 
     @media(min-width: $large-screen) {
         display: none !important;
     }
+
     .hamburger-inner {
         background-color: $transparent-white !important;
         width: 30px;
