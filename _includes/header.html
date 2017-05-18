@@ -23,15 +23,16 @@
     <script type="text/javascript">
     $('#open-burger').click(function() {
         var burgerIcon = '#open-burger';
-        var burgerElement = '.small-menu';
+        var burgerIconModifier = 'is-active';
+        var menuContent = '.small-menu';
         var modifierClass = 'small-menu--hidden';
 
-        if ($(burgerElement).hasClass(modifierClass)) {
-            $(burgerElement).removeClass(modifierClass);
-            $(burgerIcon).addClass('is-active');
+        if ($(menuContent).hasClass(modifierClass)) {
+            $(menuContent).removeClass(modifierClass);
+            $(burgerIcon).addClass(burgerIconModifier);
         } else {
-            $(burgerElement).addClass(modifierClass);
-            $(burgerIcon).removeClass('is-active');
+            $(menuContent).addClass(modifierClass);
+            $(burgerIcon).removeClass(burgerIconModifier);
         }
     });
     </script>
