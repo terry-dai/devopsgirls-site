@@ -3,6 +3,7 @@
 
 @import "header";
 @import "colours";
+@import "footer";
 
 body {
     box-sizing: border-box;
@@ -11,6 +12,9 @@ body {
 a {
     transition: all 0.3s linear 0s;
     text-decoration: none;
+
+  main {
+  min-height: calc(100vh - 70px);
 }
 
 a:focus, a:hover, a:visited {
