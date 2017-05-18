@@ -1,0 +1,37 @@
+@import "./_colours.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.footer {
+    background-color: $charcoal;
+    color: #fff;
+    padding: 30px;
+
+
+    &__links {
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__item {
+      padding: 5px;
+      font-size: 1.1em;
+    }
+}
+
+.links {
+    &__item {
+        transition: all 0.3s linear 0s;
+        text-decoration: none;
+        margin: 20px;
+        color: $transparent-white;
+
+        &:hover {
+            color: #fff;
+        }
+
+        &:visited {
+            color: $transparent-white;
+        }
+    }
+}

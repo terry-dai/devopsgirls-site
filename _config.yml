@@ -7,3 +7,6 @@ collections:
   materials:
     output: true
     permalink: /:collection/:name
+
+twitter_username: DevOpsGirls
+github_username:  DevOpsGirls
