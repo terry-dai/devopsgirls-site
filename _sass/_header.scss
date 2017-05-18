@@ -12,6 +12,10 @@
     &__logo {
         display: inline-block;
         width: 50%;
+        & img{
+          width:50px;
+          margin-left:20px;
+        }
     }
 
     &__nav {
@@ -104,4 +108,12 @@
     @media(min-width: $large-screen) {
         display: none;
     }
+}
+
+.hero-image{
+  width:100%;
+}
+
+img {
+  width:100%
 }
