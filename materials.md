@@ -5,8 +5,10 @@ permalink: /materials/
 ---
 <ul>
   {% for material in site.materials %}
-    <a href="{{ material.url }}">
-  	 {{ material.title }}
-    </a>
+    <li>
+      <a href="{{ material.url }}">
+    	 {{ material.title }}
+      </a>
+    </li>
   {% endfor %}
 </ul>
