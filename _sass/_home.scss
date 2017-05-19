@@ -1,7 +1,9 @@
 @import "./_breakpoints.scss";
+@import "./_colours.scss";
 
 .hero {
     height: 60vh;
+    position: relative;
 
     &__image {
         background: linear-gradient(
@@ -14,11 +16,31 @@
         background-size: cover;
     }
 
+    &__content {
+        font-family: $font-monserrat;
+        color: $rasberry;
+        font-weight: bold;
+        left: 0;
+        position: absolute;
+        text-align: center;
+        top: 40%;
+        width: 100%;
+        font-size: 3em;
+    }
+
     @media(min-width: $medium-screen) {
         height: 70vh;
+
+        &__content {
+            font-size: 4em;
+        }
     }
 
     @media(min-width: $large-screen) {
         height: 90vh;
+
+        &__content {
+            font-size: 5em;
+        }
     }
 }
